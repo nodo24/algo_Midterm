@@ -36,8 +36,8 @@ int main() {
         for (int i = 0; i < s.length(); i++) {
             int cc = (s[i] - 'a');
             curr_mask += (1 << cc);
-            arr[n_i] = curr_mask;
         }
+        arr[n_i] = curr_mask;
         vs.insert(curr_mask);
     }
 
